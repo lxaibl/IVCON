@@ -1,0 +1,111 @@
+# Project: ivcon
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = ivcon_private.res
+OBJ  = main.o ivconv.o utils.o asc.o gmod.o tds.o tmat.o txt.o obj.o sw_vehrd.o ase.o iv.o hrc.o smf.o stl.o xgl.o tri.o dxf.o byu.o wrl.o pov.o vla.o ucd.o tec.o sw_maprd.o swv.o swm.o $(RES)
+LINKOBJ  = main.o ivconv.o utils.o asc.o gmod.o tds.o tmat.o txt.o obj.o sw_vehrd.o ase.o iv.o hrc.o smf.o stl.o xgl.o tri.o dxf.o byu.o wrl.o pov.o vla.o ucd.o tec.o sw_maprd.o swv.o swm.o $(RES)
+LIBS =  -L"D:/ProgsNT/Dev-Cpp/lib"  
+INCS =  -I"D:/ProgsNT/Dev-Cpp/include" 
+CXXINCS =  -I"D:/ProgsNT/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"D:/ProgsNT/Dev-Cpp/include/c++/3.4.2/backward"  -I"D:/ProgsNT/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"D:/ProgsNT/Dev-Cpp/include/c++/3.4.2"  -I"D:/ProgsNT/Dev-Cpp/include" 
+BIN  = ivcon.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before ivcon.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "ivcon.exe" $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+ivconv.o: ivconv.cpp
+	$(CPP) -c ivconv.cpp -o ivconv.o $(CXXFLAGS)
+
+utils.o: utils.cpp
+	$(CPP) -c utils.cpp -o utils.o $(CXXFLAGS)
+
+asc.o: asc.cpp
+	$(CPP) -c asc.cpp -o asc.o $(CXXFLAGS)
+
+gmod.o: gmod.cpp
+	$(CPP) -c gmod.cpp -o gmod.o $(CXXFLAGS)
+
+tds.o: tds.cpp
+	$(CPP) -c tds.cpp -o tds.o $(CXXFLAGS)
+
+tmat.o: tmat.cpp
+	$(CPP) -c tmat.cpp -o tmat.o $(CXXFLAGS)
+
+txt.o: txt.cpp
+	$(CPP) -c txt.cpp -o txt.o $(CXXFLAGS)
+
+obj.o: obj.cpp
+	$(CPP) -c obj.cpp -o obj.o $(CXXFLAGS)
+
+sw_vehrd.o: sw_vehrd.cpp
+	$(CPP) -c sw_vehrd.cpp -o sw_vehrd.o $(CXXFLAGS)
+
+ase.o: ase.cpp
+	$(CPP) -c ase.cpp -o ase.o $(CXXFLAGS)
+
+iv.o: iv.cpp
+	$(CPP) -c iv.cpp -o iv.o $(CXXFLAGS)
+
+hrc.o: hrc.cpp
+	$(CPP) -c hrc.cpp -o hrc.o $(CXXFLAGS)
+
+smf.o: smf.cpp
+	$(CPP) -c smf.cpp -o smf.o $(CXXFLAGS)
+
+stl.o: stl.cpp
+	$(CPP) -c stl.cpp -o stl.o $(CXXFLAGS)
+
+xgl.o: xgl.cpp
+	$(CPP) -c xgl.cpp -o xgl.o $(CXXFLAGS)
+
+tri.o: tri.cpp
+	$(CPP) -c tri.cpp -o tri.o $(CXXFLAGS)
+
+dxf.o: dxf.cpp
+	$(CPP) -c dxf.cpp -o dxf.o $(CXXFLAGS)
+
+byu.o: byu.cpp
+	$(CPP) -c byu.cpp -o byu.o $(CXXFLAGS)
+
+wrl.o: wrl.cpp
+	$(CPP) -c wrl.cpp -o wrl.o $(CXXFLAGS)
+
+pov.o: pov.cpp
+	$(CPP) -c pov.cpp -o pov.o $(CXXFLAGS)
+
+vla.o: vla.cpp
+	$(CPP) -c vla.cpp -o vla.o $(CXXFLAGS)
+
+ucd.o: ucd.cpp
+	$(CPP) -c ucd.cpp -o ucd.o $(CXXFLAGS)
+
+tec.o: tec.cpp
+	$(CPP) -c tec.cpp -o tec.o $(CXXFLAGS)
+
+sw_maprd.o: sw_maprd.cpp
+	$(CPP) -c sw_maprd.cpp -o sw_maprd.o $(CXXFLAGS)
+
+swv.o: swv.cpp
+	$(CPP) -c swv.cpp -o swv.o $(CXXFLAGS)
+
+swm.o: swm.cpp
+	$(CPP) -c swm.cpp -o swm.o $(CXXFLAGS)
+
+ivcon_private.res: ivcon_private.rc 
+	$(WINDRES) -i ivcon_private.rc --input-format=rc -o ivcon_private.res -O coff 

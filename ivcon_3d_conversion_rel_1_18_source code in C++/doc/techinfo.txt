@@ -1,0 +1,64 @@
+
+IVCON 3D Graphics File Converter
+==================================
+
+0. Technical reference - document summary
+----------------------------------
+Overview:
+  This reference explains basics of IVCON structure.
+
+  It is not an end-user documentation, only developers may need information
+    from this file.
+
+
+
+1. Program conception notes
+----------------------------------
+Overview:
+  This chapter should be read by anyone who thinks that any
+    of main conceptions of IVCON is wrong. If you like the way
+    this tool is written, and you don't want to change scene
+    data structure or object relations, you don't need
+    to read this
+
+Concept:
+  Format libraries are two (or more) methods written in separate
+    file.
+Explanation:
+  Format libraries (tds.cpp,obj.cpp,...) are not separate objects,
+    because it is easier and quicker to write two functions (one for
+    reading and one for writing) than to create a new object.
+  There are no benefits for making each converter a separate object,
+    it only enlarges the code and makes it unclear. It takes shorter
+    to get familiar with the code when it is not fully object oriented.
+
+Concept:
+  All scene information are stored separately in IVCON class, so there
+    is not "Scene" object.
+Explanation:
+  This tool is intended to work with only one scene, so there are
+    no reasons to close scene elements in object. This way makes
+    accessing scene elements shorter and easier.
+
+
+Concept:
+  There is no per-face material or texture mapping, only per-vertex.
+Explanation:
+  It took many days of discussion before this conception was accepted.
+  The main reason is to avoid programmer errors. This way is really
+    best one. If a format uses per-face material mapping, the IVCON
+    class contains proper functions to convert the mappings in both
+    ways.
+
+
+Concept:
+  There is no color list array, specific objects contain their own
+    color entries.
+Explanation:
+  In many formats, there is a list of colors of vertices and lines.
+  In IVCON, colors are not on separate list, but inside specific
+    lines or vertices. The class contains proper functions to copy
+    colors from a list into each objects property and vice versa.
+
+2. Data structure notes
+----------------------------------

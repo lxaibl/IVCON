@@ -1,0 +1,60 @@
+/* CSS definition file containing sitestyle stylesheets */
+BLOCKQUOTE { color: rgb(255,255,255);}
+
+BODY {
+    font-family: 'Courier New', 'Lucida Console', Courier, Monaco, Monospace, monospace;
+    color: #E4D2B2;
+    background-color: rgb(0,0,0);
+    background-image: url("../sitestyle/site_background.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+ A { color: rgb(20,132,116);}
+ A:visited { color: rgb(0,116,116);}
+ A:hover { color: rgb(0,252,252);}
+
+img{
+	border:none;
+}
+
+H1 {
+    font-family: 'Courier New', 'Lucida Console', Courier, Monaco, Monospace, monospace;
+    color: #E4D2B2;
+}
+
+ H2 {
+    font-family: 'Courier New', 'Lucida Console', Courier, Monaco, Monospace, monospace;
+    color: #E4D2B2;
+}
+
+ H3 {
+    font-family: 'Courier New', 'Lucida Console', Courier, Monaco, Monospace, monospace;
+    color: #E4D2B2;
+}
+
+ H4 {
+    font-family: 'Courier New', 'Lucida Console', Courier, Monaco, Monospace, monospace;
+    color: #E4D2B2;
+}
+
+ H5 {
+    font-family: 'Courier New', 'Lucida Console', Courier, Monaco, Monospace, monospace;
+    color: #E4D2B2;
+}
+
+ H6 {
+    font-family: 'Courier New', 'Lucida Console', Courier, Monaco, Monospace, monospace;
+    color: #E4D2B2;
+}
+
+ P {
+    font-family: 'Courier New', 'Lucida Console', Courier, Monaco, Monospace, monospace;
+}
+
+ ADDRESS { color: #E4D2B2;}
+ PRE {
+    color: #E4D2B2;
+}
+
+ 

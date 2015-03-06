@@ -1,0 +1,1 @@
+IVCon-TL can read and write a variety of 3D graphics file formats, converting from one to the other. Supported formats include 3DS, ASE, BYU, DXF, GMOD, HRC, IV, OBJ, OFF, POV, SMF, STL/STLA/STLB, TEC, TRI/TRIA/TRIB, UCD, VLA, WRL/VRML, XGL and more.

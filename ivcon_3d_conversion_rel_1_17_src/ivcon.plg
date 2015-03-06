@@ -1,0 +1,144 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ivcon - Win32 PseudoDebug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Philippe\LOCALS~1\Temp\RSPCE.tmp" with contents
+[
+/nologo /MD /W3 /GX /ZI /Od /I "l:\\" /D "WIN32" /D "NDEBUG" /D "_PSEUDO_DEBUG" /D "_UNICODE" /Fr"PseudoDebug/" /Fp"PseudoDebug/ivcon.pch" /YX"stdafx.h" /Fo"PseudoDebug/" /Fd"PseudoDebug/" /FD /c 
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\asc.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\ase.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\byu.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\dxf.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\gmod.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\hrc.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\iv.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\ivconv.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\obj.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\pov.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\smf.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\stl.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\tds.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\tec.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\tmat.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\tri.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\txt.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\ucd.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\utils.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\vla.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\wrl.cpp"
+"C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Philippe\LOCALS~1\Temp\RSPCE.tmp" 
+Creating temporary file "C:\DOCUME~1\Philippe\LOCALS~1\Temp\RSPCF.tmp" with contents
+[
+/nologo /out:"PseudoDebug\ivcon.lib" 
+".\PseudoDebug\asc.obj"
+".\PseudoDebug\ase.obj"
+".\PseudoDebug\byu.obj"
+".\PseudoDebug\dxf.obj"
+".\PseudoDebug\gmod.obj"
+".\PseudoDebug\hrc.obj"
+".\PseudoDebug\iv.obj"
+".\PseudoDebug\ivconv.obj"
+".\PseudoDebug\obj.obj"
+".\PseudoDebug\pov.obj"
+".\PseudoDebug\smf.obj"
+".\PseudoDebug\stl.obj"
+".\PseudoDebug\tds.obj"
+".\PseudoDebug\tec.obj"
+".\PseudoDebug\tmat.obj"
+".\PseudoDebug\tri.obj"
+".\PseudoDebug\txt.obj"
+".\PseudoDebug\ucd.obj"
+".\PseudoDebug\utils.obj"
+".\PseudoDebug\vla.obj"
+".\PseudoDebug\wrl.obj"
+".\PseudoDebug\xgl.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Philippe\LOCALS~1\Temp\RSPCF.tmp"
+<h3>Output Window</h3>
+Compiling...
+asc.cpp
+ase.cpp
+byu.cpp
+dxf.cpp
+gmod.cpp
+hrc.cpp
+iv.cpp
+ivconv.cpp
+obj.cpp
+pov.cpp
+smf.cpp
+stl.cpp
+tds.cpp
+tec.cpp
+tmat.cpp
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(5) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(7) : warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(8) : warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(354) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(355) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(356) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(357) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(360) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(361) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(362) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(363) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(366) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(367) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(368) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(369) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(444) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(445) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(447) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(448) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(449) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(451) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(452) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(453) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(455) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(456) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\documents and settings\dynabits\mes documents\develop\ivcon\tmat.cpp(457) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+tri.cpp
+txt.cpp
+ucd.cpp
+utils.cpp
+vla.cpp
+wrl.cpp
+xgl.cpp
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(187) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(188) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(189) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(191) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(192) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(193) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(199) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(200) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(201) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(203) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(205) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(206) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(207) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(209) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(210) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(211) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(213) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(214) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(215) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(217) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(219) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(220) : warning C4305: '=' : truncation from 'const double' to 'float'
+C:\Documents and Settings\dynabits\Mes Documents\Develop\ivcon\xgl.cpp(221) : warning C4305: '=' : truncation from 'const double' to 'float'
+Creating library...
+
+
+
+<h3>Results</h3>
+ivcon.lib - 0 error(s), 49 warning(s)
+</pre>
+</body>
+</html>
